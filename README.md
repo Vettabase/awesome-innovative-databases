@@ -3,6 +3,12 @@ A curated list of potentially game-changing database systems, maintained by [Vet
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) Inspired by the `awesome-*` trend on GitHub.
 
+## Table of Contents
+
+* [Active Projects](#active-projects)
+* [Cemetary of Great Ideas](#cemetery-of-great-ideas)
+* [How to Thank Us](#how-to-thank-us)
+
 ## Active Projects
 
 ## Cemetery of Great Ideas
