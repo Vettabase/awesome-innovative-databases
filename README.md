@@ -15,6 +15,20 @@ A curated list of potentially game-changing database systems, maintained by [Vet
 
 This is a very sad section. But some necromancer might decide to bring one of these projects back, as long as they are [Open Source](https://opensource.org/osd) / [Free Software](https://www.gnu.org/philosophy/free-sw.en.html).
 
+* [NoSQL](#nosql) - A relational database that replaces SQL with a set of simple command-line tools.
+
+## Projects Information
+
+### NoSQL
+
+NoSQL is a relational database that doesn't implement SQL. Instead, it uses a set of simple and fast UNIX tools. Each tool replaces an SQL operator and its output can be piped to another operator. It makes use of GNU tools, as well as purpose-created tools written in C or Awk. NoSQL follows the //Operator-Stream Paradigm//.
+
+Links:
+
+* [Website](http://www.strozzi.it/cgi-bin/CSA/tw7/I/en_US/NoSQL)
+* [Wikipedia](https://en.wikipedia.org/wiki/Strozzi_NoSQL)
+* [Philosophy of NoSQL](http://www.strozzi.it/cgi-bin/CSA/tw7/I/en_US/NoSQL/Philosophy%20of%20NoSQL)
+
 
 ---
 
