@@ -7,6 +7,7 @@ A curated list of potentially game-changing database systems, maintained by [Vet
 
 * [Active Projects](#active-projects)
 * [Cemetary of Great Ideas](#cemetery-of-great-ideas)
+* [Projects Information](#projects-information)
 * [How to Thank Us](#how-to-thank-us)
 
 ## Active Projects
