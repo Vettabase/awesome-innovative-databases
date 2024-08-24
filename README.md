@@ -18,9 +18,24 @@ This is a very sad place. But some necromancer might decide to bring one of thes
 
 We bury a project in this cemetary if the most recent commit or public release is at least 2 years old, or if the project was officially discontinued.
 
+* [ActorDB](#actordb)
 * [NoSQL](#nosql) - A relational database that replaces SQL with a set of simple command-line tools.
 
 ## Projects Information
+
+### ActorDB
+
+ActorDB is a distributed SQL database that follows the actor model. It is designed to work with databases that have the same schema, but serve different customers. Common data can exist in the form of a key/value table.
+
+A schema is an Actor Type. An Actor is a relational database of a certain Actor Type. So, for example, you might have a `blog` Actor Type, and an Actor called `example_company_blog` of type `blog`. Each actor runs in a cluster. A cluster consists of an odd number of nodes that communicate to each other with the Raft protocol. One node is a writer, others are followers. ActorDB also supports Actor KV, a key/value table that is sharded across all clusters. An Actor KV type can have multiple columns and foreign keys to regular tables.
+
+SQLite is used for the storage and SQL layers.
+
+Links:
+
+* [Website](https://www.actordb.com/)
+* [Documentation](https://www.actordb.com/docs-about.html)
+* [GitHub](https://github.com/biokoda/actordb)
 
 ### NoSQL
 
