@@ -14,7 +14,9 @@ A curated list of potentially game-changing database systems, maintained by [Vet
 
 ## Cemetery of Great Ideas
 
-This is a very sad section. But some necromancer might decide to bring one of these projects back, as long as they are [Open Source](https://opensource.org/osd) / [Free Software](https://www.gnu.org/philosophy/free-sw.en.html).
+This is a very sad place. But some necromancer might decide to bring one of these projects back, as long as they are [Open Source](https://opensource.org/osd) / [Free Software](https://www.gnu.org/philosophy/free-sw.en.html).
+
+We bury a project in this cemetary if the most recent commit or public release is at least 2 years old, or if the project was officially discontinued.
 
 * [NoSQL](#nosql) - A relational database that replaces SQL with a set of simple command-line tools.
 
