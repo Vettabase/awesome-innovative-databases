@@ -14,6 +14,7 @@ A curated list of potentially game-changing database systems, maintained by [Vet
 
 * [Dolt](#dolt) - Git for relational data, compatible with MySQL.
 * [immudb](#immudb) - Immutable, cryptographically verified, multi-model database.
+* [Tarantool](#tarantool) - A framework for data storage an processing.
 * [TypeDB](#typedb) - Allows to define complex types and ontologies.
 
 ## Cemetery of Great Ideas
@@ -69,6 +70,18 @@ NoSQL is a relational database that doesn't implement SQL. Instead, it uses a se
 * [Website](http://www.strozzi.it/cgi-bin/CSA/tw7/I/en_US/NoSQL)
 * [Wikipedia](https://en.wikipedia.org/wiki/Strozzi_NoSQL)
 * [Philosophy of NoSQL](http://www.strozzi.it/cgi-bin/CSA/tw7/I/en_US/NoSQL/Philosophy%20of%20NoSQL)
+
+## Tarantool
+
+Tarantool is a NoSQL database for data storage and processing. Tarantool has two storage engines: memtx to store data in-memory, and vynil to store data on-disk. It is also a Lua application server, which allows to store data logic in the database itself. It can interact with several types of data sources, making it a powerful tool for data integration.
+
+Tarantool uses spaces instead of tables. A space can be schemaless, but a schema can also be specified on creation or even later. Schemas can be defined in YAML, or in Lua files that are executed when Tarantool starts.
+
+Tarantool supports replication. Master-masrer replication is not recommended, but supported. Replication is asynchronous by default, but it's possible to use synchronous transactions, to make changes that will be immediately replicated. Sharding is also supported. Each shard can be a replica set.
+
+* [Website](https://www.tarantool.io/)
+* [Documentation](https://www.tarantool.io/en/doc/latest/)
+* [GitHub](https://github.com/tarantool/tarantool)
 
 ## TypeDB
 
