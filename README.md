@@ -16,7 +16,7 @@ A curated list of potentially game-changing database systems, maintained by [Vet
 * [immudb](#immudb) - Immutable, cryptographically verified, multi-model database.
 * [Tarantool](#tarantool) - A framework for data storage an processing.
 * [TypeDB](#typedb) - Allows to define complex types and ontologies.
-* [XTDB](#xtdb) - A bitemporal database based on the JVM.
+* [XTDB](#xtdb) - A transactional, bitemporal database based on the JVM.
 
 ## Cemetery of Great Ideas
 
