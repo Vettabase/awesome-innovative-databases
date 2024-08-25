@@ -13,6 +13,7 @@ A curated list of potentially game-changing database systems, maintained by [Vet
 ## Active Projects
 
 * [Dolt](#dolt) - Git for relational data, compatible with MySQL.
+* [immudb](#immudb) - Immutable, cryptographically verified, multi-model database.
 * [TypeDB](#typedb) - Allows to define complex types and ontologies.
 
 ## Cemetery of Great Ideas
@@ -48,6 +49,18 @@ It support SQL in the MySQL dialect, as well as the MySQL protocol. Any MySQL cl
 * [Documentation](https://docs.doltlab.com/)
 * [DoltHub](https://www.dolthub.com/)
 * [DoltLab](https://www.doltlab.com/)
+
+### immudb
+
+immudb is a multi-model database. When a client writes data, an additional cryptographic proof of authenticity is associated to the data. When a client reads data, it can verify the cryptographic proof to be sure that the database was not artificially modified. Or it can skip this step for better performance.
+
+immudb is a relational, key/value and dodument databases. These models use different APIs and cannot interact with each other. A subset of SQL and transactions are supported for relational data.
+
+For relational data, updates only happen at a logical level. It is always possible to query past data. However, deletes are unsupported. It is possible to drop a table, in which case it reimains in the logs but cannot be undropped. Key/value data support expiration.
+
+* [Website](https://immudb.io/)
+* [Documentation](https://docs.immudb.io/master/)
+* [GitHub](https://github.com/codenotary/immudb)
 
 ### NoSQL
 
