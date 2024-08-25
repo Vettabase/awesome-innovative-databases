@@ -1,5 +1,7 @@
 # awesome-innovative-databases
-A curated list of potentially game-changing database systems, maintained by [Vettabase](https://vettabase.com).
+A curated list of potentially game-changing database systems.
+
+This list is a result of the constant research activities we do at [Vettabase](https://vettabase.com).
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) Inspired by the `awesome-*` trend on GitHub.
 
