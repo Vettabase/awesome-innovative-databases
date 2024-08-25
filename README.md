@@ -12,7 +12,7 @@ A curated list of potentially game-changing database systems, maintained by [Vet
 
 ## Active Projects
 
-* [TypeDB](https://typedb.com/)
+* [TypeDB](#typedb)
 
 ## Cemetery of Great Ideas
 
