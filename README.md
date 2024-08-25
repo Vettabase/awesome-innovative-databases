@@ -12,6 +12,8 @@ A curated list of potentially game-changing database systems, maintained by [Vet
 
 ## Active Projects
 
+* [TypeDB](https://typedb.com/)
+
 ## Cemetery of Great Ideas
 
 This is a very sad place. But some necromancer might decide to bring one of these projects back, as long as they are [Open Source](https://opensource.org/osd) / [Free Software](https://www.gnu.org/philosophy/free-sw.en.html).
@@ -47,7 +49,18 @@ Links:
 * [Wikipedia](https://en.wikipedia.org/wiki/Strozzi_NoSQL)
 * [Philosophy of NoSQL](http://www.strozzi.it/cgi-bin/CSA/tw7/I/en_US/NoSQL/Philosophy%20of%20NoSQL)
 
+## TypeDB
 
+TypeDB implements a query language called TypeQL. It allows us to define complex data types with attributes and ontologic relationships. The idea is to provide simple building blocks that allow to build complex schemas and rules. Queries can find data based on their relationships.
+
+TypeDB has replication, with one leader and any number of followers. Encryption is also supported.
+
+Links:
+
+* [Website](https://typedb.com/)
+* [TypeQL](https://github.com/typedb/typeql)
+* [GitHub](https://github.com/typedb/typedb)
+* [TypeDB philosophy](https://typedb.com/philosophy)
 ---
 
 ## How to Thank Us
