@@ -34,8 +34,6 @@ A schema is an Actor Type. An Actor is a relational database of a certain Actor 
 
 SQLite is used for the storage and SQL layers.
 
-Links:
-
 * [Website](https://www.actordb.com/)
 * [Documentation](https://www.actordb.com/docs-about.html)
 * [GitHub](https://github.com/biokoda/actordb)
@@ -66,8 +64,6 @@ Links:
 TypeDB implements a query language called TypeQL. It allows us to define complex data types with attributes and ontologic relationships. The idea is to provide simple building blocks that allow to build complex schemas and rules. Queries can find data based on their relationships.
 
 TypeDB has replication, with one leader and any number of followers. Encryption is also supported.
-
-Links:
 
 * [Website](https://typedb.com/)
 * [TypeQL](https://github.com/typedb/typeql)
