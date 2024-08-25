@@ -53,8 +53,6 @@ It support SQL in the MySQL dialect, as well as the MySQL protocol. Any MySQL cl
 
 NoSQL is a relational database that doesn't implement SQL. Instead, it uses a set of simple and fast UNIX tools. Each tool replaces an SQL operator and its output can be piped to another operator. It makes use of GNU tools, as well as purpose-created tools written in C or Awk. NoSQL follows the //Operator-Stream Paradigm//.
 
-Links:
-
 * [Website](http://www.strozzi.it/cgi-bin/CSA/tw7/I/en_US/NoSQL)
 * [Wikipedia](https://en.wikipedia.org/wiki/Strozzi_NoSQL)
 * [Philosophy of NoSQL](http://www.strozzi.it/cgi-bin/CSA/tw7/I/en_US/NoSQL/Philosophy%20of%20NoSQL)
