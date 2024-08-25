@@ -12,7 +12,7 @@ A curated list of potentially game-changing database systems, maintained by [Vet
 
 ## Active Projects
 
-* [Dolt](#dolt) - Git for data, compatible with MySQL.
+* [Dolt](#dolt) - Git for relational data, compatible with MySQL.
 * [TypeDB](#typedb) - Allows to define complex types and ontologies.
 
 ## Cemetery of Great Ideas
