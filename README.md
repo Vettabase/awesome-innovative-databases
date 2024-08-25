@@ -12,7 +12,7 @@ A curated list of potentially game-changing database systems, maintained by [Vet
 
 ## Active Projects
 
-* [TypeDB](#typedb)
+* [TypeDB](#typedb) - Allows to define complex types and ontologies.
 
 ## Cemetery of Great Ideas
 
