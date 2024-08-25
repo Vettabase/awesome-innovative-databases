@@ -12,6 +12,7 @@ A curated list of potentially game-changing database systems, maintained by [Vet
 
 ## Active Projects
 
+* [Dolt](#dolt) - Git for data, compatible with MySQL.
 * [TypeDB](#typedb) - Allows to define complex types and ontologies.
 
 ## Cemetery of Great Ideas
@@ -38,6 +39,17 @@ Links:
 * [Website](https://www.actordb.com/)
 * [Documentation](https://www.actordb.com/docs-about.html)
 * [GitHub](https://github.com/biokoda/actordb)
+
+## Dolt
+
+The Dolt team define their product as //git for databases//. Dolt allows us to run git operations against a dataset, including clone, pull, push, branch and commit. Databases can be shared via DoltHub in the same way you'd share code via GitHub. Another service, DoltHub, allows you to share data with your team without making them public.
+
+It support SQL in the MySQL dialect, as well as the MySQL protocol. Any MySQL client should be able to connect to Dolt. It can also replicate data from a MySQL server, like a normal MySQL replica.
+
+* [GitHub](https://github.com/dolthub/dolt)
+* [Documentation](https://docs.doltlab.com/)
+* [DoltHub](https://www.dolthub.com/)
+* [DoltLab](https://www.doltlab.com/)
 
 ### NoSQL
 
