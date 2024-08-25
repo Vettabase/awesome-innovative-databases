@@ -20,7 +20,7 @@ This is a very sad place. But some necromancer might decide to bring one of thes
 
 We bury a project in this cemetary if the most recent commit or public release is at least 2 years old, or if the project was officially discontinued.
 
-* [ActorDB](#actordb)
+* [ActorDB](#actordb) - A sharded database for the actor model.
 * [NoSQL](#nosql) - A relational database that replaces SQL with a set of simple command-line tools.
 
 ## Projects Information
