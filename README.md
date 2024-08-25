@@ -8,7 +8,7 @@ A curated list of potentially game-changing database systems, maintained by [Vet
 * [Active Projects](#active-projects)
 * [Cemetary of Great Ideas](#cemetery-of-great-ideas)
 * [Projects Information](#projects-information)
-* [How to Thank Us](#how-to-thank-us)
+* [About](#about-this-project)
 
 ## Active Projects
 
@@ -82,6 +82,12 @@ TypeDB has replication, with one leader and any number of followers. Encryption 
 * [TypeDB philosophy](https://typedb.com/philosophy)
 ---
 
+# About This Project
+
+## Contributing
+
+See the [CONTRIBUTING.md](https://github.com/Vettabase/awesome-innovative-databases/blob/main/CONTRIBUTING.md) file.
+
 ## How to Thank Us
 
 If you're the maintainer of a resource we linked, we encourage you to show in your resource an
@@ -97,7 +103,7 @@ The result will look like the following:
 
 [![Mentioned in Awesome MariaDB](https://awesome.re/mentioned-badge.svg)](https://github.com/Vettabase/awesome-mariadb)
 
----
+## Copyright and License
 
 Copyright 2024 Vettabase Ltd and contributors.
 
