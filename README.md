@@ -16,6 +16,7 @@ A curated list of potentially game-changing database systems, maintained by [Vet
 * [immudb](#immudb) - Immutable, cryptographically verified, multi-model database.
 * [Tarantool](#tarantool) - A framework for data storage an processing.
 * [TypeDB](#typedb) - Allows to define complex types and ontologies.
+* [XTDB](#xtdb) - A bitemporal database based on the JVM.
 
 ## Cemetery of Great Ideas
 
@@ -93,6 +94,19 @@ TypeDB has replication, with one leader and any number of followers. Encryption 
 * [TypeQL](https://github.com/typedb/typeql)
 * [GitHub](https://github.com/typedb/typedb)
 * [TypeDB philosophy](https://typedb.com/philosophy)
+
+## XTDB
+
+XTDB is a transactional, immutable and bitemporal database. Users don't have to do anything to version data, or to specify that by default they want to only see current data. But they can use some special syntax to query the past. XTDB is schemaless, which solves the complex problem of versioning data with a schema that can change over time.
+
+XTDB runs on the JVM. It includes an HTTP server that can be used to send SQL queries and receive the results as JSON. However, it also implements a Datalog API, implemented in Java, Clojure and Koitlin (all of them are JVM-based languages). It's also possible to extend a transaction logic with a Clojure function, for example to validate data.
+
+In XTDB, updates and deletes are logical, and an old version of the rows remains virtually forever. However, the Datalog `evict` command can be used to physically delete data that are not needed anymore, so that a database won't grow forever.
+
+* [Website](https://xtdb.com/)
+* [Documentation](https://docs.xtdb.com/)
+* [GitHub](https://github.com/xtdb/xtdb)
+
 ---
 
 # About This Project
