@@ -16,6 +16,7 @@ This list is a result of the constant research activities we do at [Vettabase](h
 
 * [Dolt](#dolt) - Git for relational data, compatible with MySQL.
 * [immudb](#immudb) - Immutable, cryptographically verified, multi-model database.
+* [RisingWave](#risingwave) - Immutable, cryptographically verified, multi-model database.
 * [Tarantool](#tarantool) - A framework for data storage an processing.
 * [TypeDB](#typedb) - Allows to define complex types and ontologies.
 * [XTDB](#xtdb) - A transactional, bitemporal database based on the JVM.
@@ -65,6 +66,19 @@ For relational data, updates only happen at a logical level. It is always possib
 * [Website](https://immudb.io/)
 * [Documentation](https://docs.immudb.io/master/)
 * [GitHub](https://github.com/codenotary/immudb)
+
+### RisingWave
+
+RisingWave is an SQL streaming database. In RisingWave, several integrations to external data sources are available. This includes Kafka, that can be used tocapture data changes (CDC) from most databases. Integrations allow you to import data by creating a Source, or export data by creating a Sink. These objects can be created with SQL commands.
+
+Imported data can optionally be persisted into local tables. You can also create materialized views, that read data from local tables or directly from the data source. Data can also be inserted directly via the SQL INSERT statement. A table can also contain additional columns, for data that are not imported from the source.
+
+It is possible to query data via SQL, using PostgreSQL dialect and protocol. RisingWave also allows to run JOINs that involve multiple data sources.
+
+* [RisingWave](https://risingwave.com/)
+* [Documentation](https://docs.risingwave.com/docs/)
+* [GitHub](https://github.com/risingwavelabs/risingwave)
+* [Playground](https://cloud.risingwave.com/auth/signin/)
 
 ### NoSQL
 
