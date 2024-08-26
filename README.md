@@ -5,7 +5,7 @@ This list is a result of the constant research activities we do at [Vettabase](h
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) Inspired by the `awesome-*` trend on GitHub.
 
-## Table of Contents
+**Table of Contents**
 
 * [Active Projects](#active-projects)
 * [Cemetary of Great Ideas](#cemetery-of-great-ideas)
