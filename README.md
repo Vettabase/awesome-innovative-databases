@@ -16,6 +16,7 @@ This list is a result of the constant research activities we do at [Vettabase](h
 
 * [Dolt](#dolt) - Git for relational data, compatible with MySQL.
 * [immudb](#immudb) - Immutable, cryptographically verified, multi-model database.
+* [MobilityDB](#MobilityDB) - A geospatial trajectory data management and analysis database.
 * [RisingWave](#risingwave) - Immutable, cryptographically verified, multi-model database.
 * [Tarantool](#tarantool) - A framework for data storage an processing.
 * [TypeDB](#typedb) - Allows to define complex types and ontologies.
@@ -66,6 +67,17 @@ For relational data, updates only happen at a logical level. It is always possib
 * [Website](https://immudb.io/)
 * [Documentation](https://docs.immudb.io/master/)
 * [GitHub](https://github.com/codenotary/immudb)
+
+### MobilityDB
+
+MobilityDB is a PostgreSQL extension. It is a database for geospatial data management and analysis of moving objects.
+
+When an object is moving, we have its position at several points in time. The position of an object in the interval between two observations is unknown by definition. However, MobilityDB tries to calculate the position at any point in time based on the previous and next position information, and the object's speed and direction. To do so, MobilityDB implements its own type system: it has types that represent the position, direction and speed of an object, as well as temporal versions of the most common type, to represent an informaiton as a point in time.
+
+While calculating the trajectories, MobilityDB eliminates the point that are not useful for this purpose, for example because an object remained still for some time.
+
+* [Website](https://www.osgeo.org/projects/mobilitydb/)
+* [GitHub](https://github.com/MobilityDB/MobilityDB)
 
 ### RisingWave
 
