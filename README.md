@@ -20,6 +20,7 @@ This list is a result of the constant research activities we do at [Vettabase](h
 * [RisingWave](#risingwave) - Immutable, cryptographically verified, multi-model database.
 * [Tarantool](#tarantool) - A framework for data storage an processing.
 * [TypeDB](#typedb) - Allows to define complex types and ontologies.
+* [Seafowl](#seafowl) - For analytics, built with web applications in mind.
 * [XTDB](#xtdb) - A transactional, bitemporal database based on the JVM.
 
 ## Cemetery of Great Ideas
@@ -122,6 +123,20 @@ TypeDB has replication, with one leader and any number of followers. Encryption 
 * [TypeQL](https://github.com/typedb/typeql)
 * [GitHub](https://github.com/typedb/typedb)
 * [TypeDB philosophy](https://typedb.com/philosophy)
+
+## Seafowl
+
+Seafowl is an SQL database, exclusively for analytics.
+
+Seafowl was designed for modern web applications. It can be queried via HTTP and it will return JSON results. By design, it is possible to run it in a CDN, cache some queries via [Varnish HTTP Cache](https://varnish-cache.org/), or leverage a web browser cache via `fetch()`. It also supports cache validity checks using HTTP ETags.
+
+Data files are stored in the [Apache Parquet](https://parquet.apache.org/) format. Data can be loaded as Apache Parquet or CSV.
+
+High availability is supported using an external PostgreSQL database as a catalog. In a single-node deployment, a local SQLite database is used as a catalog.
+
+* [Website](https://seafowl.io/)
+* [Documentation](https://seafowl.io/docs/getting-started/introduction)
+* [GitHub](https://github.com/splitgraph/seafowl)
 
 ## XTDB
 
