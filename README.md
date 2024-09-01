@@ -48,7 +48,7 @@ SQLite is used for the storage and SQL layers.
 
 ## Dolt
 
-The Dolt team define their product as //git for databases//. Dolt allows us to run git operations against a dataset, including clone, pull, push, branch and commit. Databases can be shared via DoltHub in the same way you'd share code via GitHub. Another service, DoltHub, allows you to share data with your team without making them public.
+The Dolt team define their product as _git for databases_. Dolt allows us to run git operations against a dataset, including clone, pull, push, branch and commit. Databases can be shared via DoltHub in the same way you'd share code via GitHub. Another service, DoltHub, allows you to share data with your team without making them public.
 
 It support SQL in the MySQL dialect, as well as the MySQL protocol. Any MySQL client should be able to connect to Dolt. It can also replicate data from a MySQL server, like a normal MySQL replica.
 
@@ -95,7 +95,7 @@ It is possible to query data via SQL, using PostgreSQL dialect and protocol. Ris
 
 ### NoSQL
 
-NoSQL is a relational database that doesn't implement SQL. Instead, it uses a set of simple and fast UNIX tools. Each tool replaces an SQL operator and its output can be piped to another operator. It makes use of GNU tools, as well as purpose-created tools written in C or Awk. NoSQL follows the //Operator-Stream Paradigm//.
+NoSQL is a relational database that doesn't implement SQL. Instead, it uses a set of simple and fast UNIX tools. Each tool replaces an SQL operator and its output can be piped to another operator. It makes use of GNU tools, as well as purpose-created tools written in C or Awk. NoSQL follows the _Operator-Stream Paradigm_.
 
 * [Website](http://www.strozzi.it/cgi-bin/CSA/tw7/I/en_US/NoSQL)
 * [Wikipedia](https://en.wikipedia.org/wiki/Strozzi_NoSQL)
