@@ -46,7 +46,7 @@ SQLite is used for the storage and SQL layers.
 * [Documentation](https://www.actordb.com/docs-about.html)
 * [GitHub](https://github.com/biokoda/actordb)
 
-## Dolt
+### Dolt
 
 The Dolt team define their product as _git for databases_. Dolt allows us to run git operations against a dataset, including clone, pull, push, branch and commit. Databases can be shared via DoltHub in the same way you'd share code via GitHub. Another service, DoltHub, allows you to share data with your team without making them public.
 
@@ -101,7 +101,7 @@ NoSQL is a relational database that doesn't implement SQL. Instead, it uses a se
 * [Wikipedia](https://en.wikipedia.org/wiki/Strozzi_NoSQL)
 * [Philosophy of NoSQL](http://www.strozzi.it/cgi-bin/CSA/tw7/I/en_US/NoSQL/Philosophy%20of%20NoSQL)
 
-## Tarantool
+### Tarantool
 
 Tarantool is a NoSQL database for data storage and processing. Tarantool has two storage engines: memtx to store data in-memory, and vynil to store data on-disk. It is also a Lua application server, which allows to store data logic in the database itself. It can interact with several types of data sources, making it a powerful tool for data integration.
 
@@ -113,7 +113,7 @@ Tarantool supports replication. Master-masrer replication is not recommended, bu
 * [Documentation](https://www.tarantool.io/en/doc/latest/)
 * [GitHub](https://github.com/tarantool/tarantool)
 
-## TypeDB
+### TypeDB
 
 TypeDB implements a query language called TypeQL. It allows us to define complex data types with attributes and ontologic relationships. The idea is to provide simple building blocks that allow to build complex schemas and rules. Queries can find data based on their relationships.
 
@@ -124,7 +124,7 @@ TypeDB has replication, with one leader and any number of followers. Encryption 
 * [GitHub](https://github.com/typedb/typedb)
 * [TypeDB philosophy](https://typedb.com/philosophy)
 
-## Seafowl
+### Seafowl
 
 Seafowl is an SQL database, exclusively for analytics.
 
@@ -138,7 +138,7 @@ High availability is supported using an external PostgreSQL database as a catalo
 * [Documentation](https://seafowl.io/docs/getting-started/introduction)
 * [GitHub](https://github.com/splitgraph/seafowl)
 
-## XTDB
+### XTDB
 
 XTDB is a transactional, immutable and bitemporal database. Users don't have to do anything to version data, or to specify that by default they want to only see current data. But they can use some special syntax to query the past. XTDB is schemaless, which solves the complex problem of versioning data with a schema that can change over time.
 
