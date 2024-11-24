@@ -82,7 +82,7 @@ While calculating the trajectories, MobilityDB eliminates the point that are not
 
 ### RisingWave
 
-RisingWave is an SQL streaming database. In RisingWave, several integrations to external data sources are available. This includes Kafka, that can be used tocapture data changes (CDC) from most databases. Integrations allow you to import data by creating a Source, or export data by creating a Sink. These objects can be created with SQL commands.
+RisingWave is an SQL streaming database. In RisingWave, several integrations to external data sources are available. This includes Kafka, that can be used to capture data changes (CDC) from most databases. Integrations allow you to import data by creating a Source, or export data by creating a Sink. These objects can be created with SQL commands.
 
 Imported data can optionally be persisted into local tables. You can also create materialized views, that read data from local tables or directly from the data source. Data can also be inserted directly via the SQL INSERT statement. A table can also contain additional columns, for data that are not imported from the source.
 
