@@ -53,7 +53,7 @@ The Dolt team define their product as _git for databases_. Dolt allows us to run
 It support SQL in the MySQL dialect, as well as the MySQL protocol. Any MySQL client should be able to connect to Dolt. It can also replicate data from a MySQL server, like a normal MySQL replica.
 
 * [GitHub](https://github.com/dolthub/dolt)
-* [Documentation](https://docs.dolthub.com/)
+* [Documentation](https://docs.doltlab.com/)
 * [DoltHub](https://www.dolthub.com/)
 * [DoltLab](https://www.doltlab.com/)
 
