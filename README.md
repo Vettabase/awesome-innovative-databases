@@ -56,6 +56,7 @@ It support SQL in the MySQL dialect, as well as the MySQL protocol. Any MySQL cl
 * [Documentation](https://docs.doltlab.com/)
 * [DoltHub](https://www.dolthub.com/)
 * [DoltLab](https://www.doltlab.com/)
+* [Dolt database: first impressions](https://vettabase.com/dolt-database-first-impressions/)
 
 ### immudb
 
