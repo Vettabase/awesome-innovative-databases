@@ -8,7 +8,7 @@ This list is a result of the constant research activities we do at [Vettabase](h
 **Table of Contents**
 
 * [Active Projects](#active-projects)
-* [Cemetary of Great Ideas](#cemetery-of-great-ideas)
+* [Cemetery of Great Ideas](#cemetery-of-great-ideas)
 * [Projects Information](#projects-information)
 * [About](#about-this-project)
 
@@ -27,7 +27,7 @@ This list is a result of the constant research activities we do at [Vettabase](h
 
 This is a very sad place. But some necromancer might decide to bring one of these projects back, as long as they are [Open Source](https://opensource.org/osd) / [Free Software](https://www.gnu.org/philosophy/free-sw.en.html).
 
-We bury a project in this cemetary if the most recent commit or public release is at least 2 years old, or if the project was officially discontinued.
+We bury a project in this cemetery if the most recent commit or public release is at least 2 years old, or if the project was officially discontinued.
 
 * [ActorDB](#actordb) - A sharded database for the actor model.
 * [NoSQL](#nosql) - A relational database that replaces SQL with a set of simple command-line tools.
