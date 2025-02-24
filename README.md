@@ -17,7 +17,7 @@ This list is a result of the constant research activities we do at [Vettabase](h
 * [Dolt](#dolt) - Git for relational data, compatible with MySQL.
 * [immudb](#immudb) - Immutable, cryptographically verified, multi-model database.
 * [MobilityDB](#MobilityDB) - A geospatial trajectory data management and analysis database.
-* [RisingWave](#risingwave) - Immutable, cryptographically verified, multi-model database.
+* [RisingWave](#risingwave) - An SQL streaming database.
 * [Tarantool](#tarantool) - A framework for data storage an processing.
 * [TypeDB](#typedb) - Allows to define complex types and ontologies.
 * [Seafowl](#seafowl) - For analytics, built with web applications in mind.
