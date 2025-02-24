@@ -62,7 +62,7 @@ It support SQL in the MySQL dialect, as well as the MySQL protocol. Any MySQL cl
 
 immudb is a multi-model database. When a client writes data, an additional cryptographic proof of authenticity is associated to the data. When a client reads data, it can verify the cryptographic proof to be sure that the database was not artificially modified. Or it can skip this step for better performance.
 
-immudb is a relational, key/value and document databases. These models use different APIs and cannot interact with each other. A subset of SQL and transactions are supported for relational data.
+immudb is a relational, key/value and document database. These models use different APIs and cannot interact with each other. A subset of SQL and transactions are supported for relational data.
 
 For relational data, updates only happen at a logical level. It is always possible to query past data. However, deletes are unsupported. It is possible to drop a table, in which case it remains in the logs but cannot be undropped. Key/value data support expiration.
 
