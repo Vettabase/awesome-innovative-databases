@@ -172,7 +172,7 @@ Simply paste this code in your `README.md` file:
 
 The result will look like the following:
 
-[![Mentioned in Awesome MariaDB](https://awesome.re/mentioned-badge.svg)](https://github.com/Vettabase/awesome-mariadb)
+[![Mentioned in Awesome Innovative Databases](https://awesome.re/mentioned-badge.svg)](https://github.com/Vettabase/awesome-innovative-databases)
 
 ## Copyright and License
 
