@@ -64,7 +64,7 @@ immudb is a multi-model database. When a client writes data, an additional crypt
 
 immudb is a relational, key/value and document databases. These models use different APIs and cannot interact with each other. A subset of SQL and transactions are supported for relational data.
 
-For relational data, updates only happen at a logical level. It is always possible to query past data. However, deletes are unsupported. It is possible to drop a table, in which case it reimains in the logs but cannot be undropped. Key/value data support expiration.
+For relational data, updates only happen at a logical level. It is always possible to query past data. However, deletes are unsupported. It is possible to drop a table, in which case it remains in the logs but cannot be undropped. Key/value data support expiration.
 
 * [Website](https://immudb.io/)
 * [Documentation](https://docs.immudb.io/master/)
