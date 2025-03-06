@@ -3,6 +3,8 @@ A curated list of potentially game-changing database systems.
 
 This list is a result of the constant research activities we do at [Vettabase](https://vettabase.com).
 
+We also have a [LinkedIn page](https://www.linkedin.com/showcase/awesome-innovative-db).
+
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) Inspired by the `awesome-*` trend on GitHub.
 
 **Table of Contents**
