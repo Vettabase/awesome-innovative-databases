@@ -21,6 +21,7 @@ We also have a [LinkedIn page](https://www.linkedin.com/showcase/awesome-innovat
 * [MobilityDB](#MobilityDB) - A geospatial trajectory data management and analysis database.
 * [RisingWave](#risingwave) - An SQL streaming database.
 * [Tarantool](#tarantool) - A framework for data storage an processing.
+* [TidesDB](#tidesdb) - A lock-free ACID K/V database, and a storage engine for MariaDB.
 * [TypeDB](#typedb) - Allows to define complex types and ontologies.
 * [Seafowl](#seafowl) - For analytics, built with web applications in mind.
 * [XTDB](#xtdb) - A transactional, bitemporal database based on the JVM.
@@ -115,6 +116,19 @@ Tarantool supports replication. Master-masrer replication is not recommended, bu
 * [Website](https://www.tarantool.io/)
 * [Documentation](https://www.tarantool.io/en/doc/latest/)
 * [GitHub](https://github.com/tarantool/tarantool)
+
+### TidesDB
+
+TidesDB is an ACID-compliant key-value database. A stored engine for MariaDB, TideSQL, derives from TidesDB.
+
+TidesDB uses an LSM-tree (log-structured merge-tree) architecture. New data is written into an in-memory structure called a memtable, which is periodically flushed to disk as WAL files that can be used for data recovery. This write-ahead pattern makes writes particularly fast, though we have to accept that the most recently inserted data might be lost in case of a crash. Data is organised in column families. A column family has its own namespace, memtable, WAL, and data files.
+
+TidesDB implements transactions using MVCC. Instead of locking rows during a transaction, MVCC keeps multiple versions of the same key. When a transaction reads a key, it always sees the last version that was committed before the transaction started. This makes reads and writes consistent, without requiring any locks.
+
+* [Website](https://tidesdb.com/)
+* [Documentation / Blog](https://tidesdb.com/getting-started/what-is-tidesdb/)
+* [GitHub](https://github.com/tidesdb/tidesdb)
+* [TideSQL](https://tidesdb.com/reference/tidesql/)
 
 ### TypeDB
 
