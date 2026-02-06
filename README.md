@@ -21,7 +21,7 @@ We also have a [LinkedIn page](https://www.linkedin.com/showcase/awesome-innovat
 * [MobilityDB](#MobilityDB) - A geospatial trajectory data management and analysis database.
 * [RisingWave](#risingwave) - An SQL streaming database.
 * [Tarantool](#tarantool) - A framework for data storage an processing.
-* [TidesDB](#tidesdb) - A lock-free ACID K/V database, and a storage engine for MariaDB.
+* [TidesDB](#tidesdb) - A high performance LSM based storage engine built on lock-free architecture, also offering a pluggable engine for MariaDB.
 * [TypeDB](#typedb) - Allows to define complex types and ontologies.
 * [Seafowl](#seafowl) - For analytics, built with web applications in mind.
 * [XTDB](#xtdb) - A transactional, bitemporal database based on the JVM.
@@ -119,7 +119,7 @@ Tarantool supports replication. Master-masrer replication is not recommended, bu
 
 ### TidesDB
 
-TidesDB is an ACID-compliant key-value database. A stored engine for MariaDB, TideSQL, derives from TidesDB.
+TidesDB is an ACID-compliant key-value storage engine with a plugin for MariaDB - TideSQL in which derives from TidesDB."
 
 TidesDB uses an LSM-tree (log-structured merge-tree) architecture. New data is written into an in-memory structure called a memtable, which is periodically flushed to disk as WAL files that can be used for data recovery. This write-ahead pattern makes writes particularly fast, though we have to accept that the most recently inserted data might be lost in case of a crash. Data is organised in column families. A column family has its own namespace, memtable, WAL, and data files.
 
