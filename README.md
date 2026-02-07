@@ -20,10 +20,10 @@ We also have a [LinkedIn page](https://www.linkedin.com/showcase/awesome-innovat
 * [immudb](#immudb) - Immutable, cryptographically verified, multi-model database.
 * [MobilityDB](#MobilityDB) - A geospatial trajectory data management and analysis database.
 * [RisingWave](#risingwave) - An SQL streaming database.
+* [Seafowl](#seafowl) - For analytics, built with web applications in mind.
 * [Tarantool](#tarantool) - A framework for data storage an processing.
 * [TidesDB](#tidesdb) - A high performance LSM based storage engine built on lock-free architecture, also offering a pluggable engine for MariaDB.
 * [TypeDB](#typedb) - Allows to define complex types and ontologies.
-* [Seafowl](#seafowl) - For analytics, built with web applications in mind.
 * [XTDB](#xtdb) - A transactional, bitemporal database based on the JVM.
 
 ## Cemetery of Great Ideas
@@ -105,6 +105,20 @@ NoSQL is a relational database that doesn't implement SQL. Instead, it uses a se
 * [Wikipedia](https://en.wikipedia.org/wiki/Strozzi_NoSQL)
 * [Philosophy of NoSQL](http://www.strozzi.it/cgi-bin/CSA/tw7/I/en_US/NoSQL/Philosophy%20of%20NoSQL)
 
+### Seafowl
+
+Seafowl is an SQL database, exclusively for analytics.
+
+Seafowl was designed for modern web applications. It can be queried via HTTP and it will return JSON results. By design, it is possible to run it in a CDN, cache some queries via [Varnish HTTP Cache](https://varnish-cache.org/), or leverage a web browser cache via `fetch()`. It also supports cache validity checks using HTTP ETags.
+
+Data files are stored in the [Apache Parquet](https://parquet.apache.org/) format. Data can be loaded as Apache Parquet or CSV.
+
+High availability is supported using an external PostgreSQL database as a catalog. In a single-node deployment, a local SQLite database is used as a catalog.
+
+* [Website](https://seafowl.io/)
+* [Documentation](https://seafowl.io/docs/getting-started/introduction)
+* [GitHub](https://github.com/splitgraph/seafowl)
+
 ### Tarantool
 
 Tarantool is a NoSQL database for data storage and processing. Tarantool has two storage engines: memtx to store data in-memory, and vynil to store data on-disk. It is also a Lua application server, which allows to store data logic in the database itself. It can interact with several types of data sources, making it a powerful tool for data integration.
@@ -140,20 +154,6 @@ TypeDB has replication, with one leader and any number of followers. Encryption 
 * [TypeQL](https://github.com/typedb/typeql)
 * [GitHub](https://github.com/typedb/typedb)
 * [TypeDB philosophy](https://typedb.com/philosophy)
-
-### Seafowl
-
-Seafowl is an SQL database, exclusively for analytics.
-
-Seafowl was designed for modern web applications. It can be queried via HTTP and it will return JSON results. By design, it is possible to run it in a CDN, cache some queries via [Varnish HTTP Cache](https://varnish-cache.org/), or leverage a web browser cache via `fetch()`. It also supports cache validity checks using HTTP ETags.
-
-Data files are stored in the [Apache Parquet](https://parquet.apache.org/) format. Data can be loaded as Apache Parquet or CSV.
-
-High availability is supported using an external PostgreSQL database as a catalog. In a single-node deployment, a local SQLite database is used as a catalog.
-
-* [Website](https://seafowl.io/)
-* [Documentation](https://seafowl.io/docs/getting-started/introduction)
-* [GitHub](https://github.com/splitgraph/seafowl)
 
 ### XTDB
 
