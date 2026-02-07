@@ -190,6 +190,13 @@ The result will look like the following:
 
 [![Mentioned in Awesome Innovative Databases](https://awesome.re/mentioned-badge.svg)](https://github.com/Vettabase/awesome-innovative-databases)
 
+## Related Projects
+
+Related projects from us:
+
+* **[YesSQL](https://github.com/Vettabase/YesSQL)**
+* **[Awesome MariaDB](https://github.com/Vettabase/awesome-mariadb)**
+
 ## Copyright and License
 
 Copyright 2024 2025 2026 Vettabase Ltd and contributors.
