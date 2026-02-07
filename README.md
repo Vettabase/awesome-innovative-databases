@@ -11,7 +11,7 @@ We also have a [LinkedIn page](https://www.linkedin.com/showcase/awesome-innovat
 
 * [Active Projects](#active-projects)
 * [Cemetery of Great Ideas](#cemetery-of-great-ideas)
-* [Projects Information](#projects-information)
+* [Project Information](#project-information)
 * [About](#about-this-project)
 
 ## Active Projects
@@ -35,7 +35,7 @@ We bury a project in this cemetery if the most recent commit or public release i
 * [ActorDB](#actordb) - A sharded database for the actor model.
 * [NoSQL](#nosql) - A relational database that replaces SQL with a set of simple command-line tools.
 
-## Projects Information
+## Project Information
 
 ### ActorDB
 
