@@ -192,6 +192,6 @@ The result will look like the following:
 
 ## Copyright and License
 
-Copyright 2024 Vettabase Ltd and contributors.
+Copyright 2024 2025 2026 Vettabase Ltd and contributors.
 
 The Awesome Innovsative Databases list is licensed under [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
