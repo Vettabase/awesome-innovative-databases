@@ -17,7 +17,7 @@ We also have a [LinkedIn page](https://www.linkedin.com/showcase/awesome-innovat
 ## Active Projects
 
 * [Dolt](#dolt) - Git for relational data, compatible with MySQL.
-* [Gnocchi](#ngocchi) - A pre-aggregated timeseries database using several backends.
+* [Gnocchi](#gnocchi) - A pre-aggregated timeseries database using several backends.
 * [immudb](#immudb) - Immutable, cryptographically verified, multi-model database.
 * [MobilityDB](#MobilityDB) - A geospatial trajectory data management and analysis database.
 * [RisingWave](#risingwave) - An SQL streaming database.
