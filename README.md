@@ -71,7 +71,7 @@ All metrics refer to a Resource that, in turn, has a Resource Type. These metada
 Metrics have an Archive Policy that defined their aggregation method (a function) and granularity. Usually you'll simply read pre-aggregated metrics, which makes reads fast. But you can also apply further manipulations, for example you can read multiple metrics at once or apply further aggregations.
 
 * [Website](https://gnocchi.osci.io/)
-* (GitHub)[https://github.com/gnocchixyz/gnocchi]
+* [GitHub](https://github.com/gnocchixyz/gnocchi)
 
 ### immudb
 
