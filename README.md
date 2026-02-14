@@ -17,6 +17,7 @@ We also have a [LinkedIn page](https://www.linkedin.com/showcase/awesome-innovat
 ## Active Projects
 
 * [Dolt](#dolt) - Git for relational data, compatible with MySQL.
+* [Gnocchi](#ngocchi) - A pre-aggregated timeseries database using several backends.
 * [immudb](#immudb) - Immutable, cryptographically verified, multi-model database.
 * [MobilityDB](#MobilityDB) - A geospatial trajectory data management and analysis database.
 * [RisingWave](#risingwave) - An SQL streaming database.
@@ -60,6 +61,17 @@ It support SQL in the MySQL dialect, as well as the MySQL protocol. Any MySQL cl
 * [DoltHub](https://www.dolthub.com/)
 * [DoltLab](https://www.doltlab.com/)
 * [Dolt database: first impressions](https://vettabase.com/dolt-database-first-impressions/)
+
+### Gnocchi
+
+Gnocchi is a timeseries database. Its main characteristic is aggregating data before they can be read by the user. Raw data is only stored temporarily.
+
+All metrics refer to a Resource that, in turn, has a Resource Type. These metadata are written into an external relational database (MySQL or PostgreSQL) and can be search by a process called Indexer. Incoming metrics are temporarily written into the Incoming storage, which is usually Redis. Aggregated metrics are written into the Aggregate storage, which is usually Ceph. A Coordinator backend makes sure that no two processes try to access the same group (Sack) of incoming metrics.
+
+Metrics have an Archive Policy that defined their aggregation method (a function) and granularity. Usually you'll simply read pre-aggregated metrics, which makes reads fast. But you can also apply further manipulations, for example you can read multiple metrics at once or apply further aggregations.
+
+* [Website](https://gnocchi.osci.io/)
+* (GitHub)[https://github.com/gnocchixyz/gnocchi]
 
 ### immudb
 
