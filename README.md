@@ -72,6 +72,7 @@ Metrics have an Archive Policy that defined their aggregation method (a function
 
 * [Website](https://gnocchi.osci.io/)
 * [GitHub](https://github.com/gnocchixyz/gnocchi)
+* IRC: #gnocchi on [https://www.oftc.net/](OFTC)
 
 ### immudb
 
