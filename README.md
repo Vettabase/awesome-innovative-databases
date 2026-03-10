@@ -146,11 +146,11 @@ Tarantool supports replication. Master-masrer replication is not recommended, bu
 
 ### TidesDB
 
-TidesDB is an ACID-compliant key-value storage engine with a plugin for MariaDB - TideSQL in which derives from TidesDB."
+TidesDB is an ACID-compliant key-value storage engine with a plugin for MariaDB, TideSQL.
 
 TidesDB uses an LSM-tree (log-structured merge-tree) architecture. New data is written into an in-memory structure called a memtable, which is periodically flushed to disk as WAL files that can be used for data recovery. This write-ahead pattern makes writes particularly fast, though we have to accept that the most recently inserted data might be lost in case of a crash. Data is organised in column families. A column family has its own namespace, memtable, WAL, and data files.
 
-TidesDB implements transactions using MVCC. Instead of locking rows during a transaction, MVCC keeps multiple versions of the same key. When a transaction reads a key, it always sees the last version that was committed before the transaction started. This makes reads and writes consistent, without requiring any locks.
+Instead of locking rows during a transaction, TidesDB keeps multiple versions of the same key. When a transaction reads a key, it always sees the last version that was committed before the transaction started. When two transactions try to modify the same logical row, one of them will obtain an error on commit.
 
 * [Website](https://tidesdb.com/)
 * [Documentation / Blog](https://tidesdb.com/getting-started/what-is-tidesdb/)
