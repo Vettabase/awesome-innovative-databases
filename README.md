@@ -20,6 +20,7 @@ We also have a [LinkedIn page](https://www.linkedin.com/showcase/awesome-innovat
 * [Gnocchi](#gnocchi) - A pre-aggregated timeseries database using several backends.
 * [immudb](#immudb) - Immutable, cryptographically verified, multi-model database.
 * [MobilityDB](#MobilityDB) - A geospatial trajectory data management and analysis database.
+* [Omnigraph](#omnigraph) - Typed graph database where agents branch and merge like Git. S3-native, Rust, traversal + vector + BM25 in one runtime.
 * [RisingWave](#risingwave) - An SQL streaming database.
 * [Seafowl](#seafowl) - For analytics, built with web applications in mind.
 * [Tarantool](#tarantool) - A framework for data storage an processing.
@@ -106,6 +107,14 @@ While calculating the trajectories, MobilityDB eliminates the point that are not
 
 * [Website](https://www.osgeo.org/projects/mobilitydb/)
 * [GitHub](https://github.com/MobilityDB/MobilityDB)
+
+### Omnigraph
+
+Omnigraph is a typed graph database built in Rust. It treats data like code: agents can branch, diff, and merge graph state the same way developers use Git. The storage layer is S3-native, and a single runtime handles traversal queries, vector search, and BM25 full-text search without external plugins.
+
+Schemas are defined in a property graph language (.pg files), and queries use a dedicated graph query language (.gq files). Omnigraph supports embedding generation, schema evolution, and multi-branch workflows out of the box.
+
+* [GitHub](https://github.com/ModernRelay/omnigraph)
 
 ### RisingWave
 
